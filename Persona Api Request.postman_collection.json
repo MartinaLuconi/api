@@ -1,0 +1,654 @@
+{
+	"info": {
+		"_postman_id": "3201cb8c-71bf-4644-9682-54fcfb1e6ba8",
+		"name": "Persona Api Request",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30235483"
+	},
+	"item": [
+		{
+			"name": "Personas",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"nombre\": \"Martina\",\r\n        \"apellido\": \"Luconi\",\r\n        \"dni\": 44538250\r\n        \r\n        }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/personas",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/personas",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/personas",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get one",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/personas",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/personas",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Autores",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n                      \r\n                        \"nombre\": \"Danielle\",\r\n                        \"apellido\": \"Steel\",\r\n                        \"biografia\": \"Danielle Fernandes Dominique Schülein-Steel es una de las autoras de superventas en los Estados Unidos. Se la conoce sobre todo por sus novelas románticas como Danielle Steel. Ha vendido más de 530 millones de ejemplares de sus libros\"\r\n                    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/h2-console/api/v1/autores",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"h2-console",
+								"api",
+								"v1",
+								"autores"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/autores",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"autores"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/autores",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"autores"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get one",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/autores",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"autores"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/autores",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"autores"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Localidades",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"denominacion\":\"Godoy Cruz\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/localidades",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/localidades",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/localidades",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get one",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"id\":2}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/localidades",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/localidades",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "libros",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n                \"titulo\": \"Un cuento de hadas\",\r\n                \"fecha\": 2017,\r\n                \"genero\": \"romance\",\r\n                \"paginas\": 409\r\n               \r\n                   \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/libros",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"libros"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/libros",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"libros"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/libros",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"libros"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get one",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/libros",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"libros"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/libros",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"libros"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Domicilio",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n     \"calle\": \"Boedo\",\r\n    \"numero\": 189\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/domicilios",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"domicilios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/domicilios",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"domicilios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/domicilios",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"domicilios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get one",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/domicilios",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"domicilios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://tp5apisinpaginacion.onrender.com/api/v1/domicilios",
+							"protocol": "https",
+							"host": [
+								"tp5apisinpaginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"domicilios"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
